@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body dir="rtl">
+
+    <table style="width:1000px;" border="1px">
+        <tr>
+            <th style="width: 25%;">نوع کالا</th>
+            <th style="width: 25%;">تعداد کالا</th>
+            <th style="width: 25%;">قیمت هر کالا</th>
+
+        </tr>
+        <tr>
+            <td>ماشین</td>
+            <td><input class="temashin" type="number" onblur="jame()" placeholder="0" style="width: auto;"></td>
+            <td><input class="ghemashin" type="number" onblur="jame()" placeholder="0" style="width: auto;"></td>
+        </tr>
+        <tr>
+            <td>موتور</td>
+            <td><input class="temotor" type="number" onblur="jame()" placeholder="0" style="width: auto;"></td>
+            <td><input type="number" class="ghemotor" onblur="jame()" placeholder="0" style="width: auto;"></td>
+        </tr>
+        <tr>
+            <td>لاستیک</td>
+            <td><input type="number" placeholder="0" onblur="jame()" class="telas" style="width: auto;"></td>
+            <td><input type="number" placeholder="0" onblur="jame()" class="ghelas" style="width: auto;"></td>
+        </tr>
+        <tr>
+            <td>صندلی</td>
+            <td>
+                <input type="number" placeholder="0"  onblur="jame()"  class="tesan" style="width: auto;">
+            </td>
+            <td>
+                <input type="number" placeholder="0" onblur="jame()" class="ghesan" style="width: auto;">
+            </td>
+        </tr>
+        <tr>
+            <td>جمع کل</td>
+            
+            <td class="jamekolss"><span class="jamekols"></span></td>
+            <td class="tds"><button class="btns">محاسبه فاکتور </button></td>
+        </tr>
+    </table>
+    
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
